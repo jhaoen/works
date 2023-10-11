@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>feeback</title>
+</head>
+<style>
+body{
+    background-color:gold;
+    font-size:20px;
+    font-family:微軟正黑體;
+}
+.headline{
+    background-color:black;
+    font-size:28px;
+    padding:6px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.headline2{
+    color:white;
+    text-decoration:none;
+}
+.headline:hover{
+    background-color:orange;
+    color:black;
+}
+.headline2:active{
+    background-color:orange;
+    color:black;
+}
+table{
+    width:100%;
+    text-align:center;
+}
+h1{
+    font-size:50px;
+    text-align:center;
+    background-color:sienna;
+    border:2px solid black;
+    border-radius:10px;
+    height:60px;
+    padding:30px;
+    color:white;
+}
+fieldset{
+    border:2px solid;
+}
+.text{
+    font-size:20px;
+    text-align:left;
+}
+</style>
+<body>
+    <h1>表單回饋</h1>
+    <table align="center" >
+        <td class="headline"><a href="公司網頁.html" class="headline2">首    頁</a></td>
+        <td class="headline"><a href="product.html" class="headline2" target="_top">產品介紹</a></td>
+        <td class="headline"><a href="income.html" class="headline2"  target="_top">財務報表</a></td>
+        <td class="headline"><a href="member.html" class="headline2"  target="_top">公司員工</a></td>
+        <td class="headline"><a href="calender.html" class="headline2" target="_top">行事曆</a></td>
+        <td class="headline"><a href="feeback.html" class="headline2" target="_top">問題回饋</a></td>
+    </table>
+<form action="mailto:andy911106@yahoo.com.tw">
+<fieldset>
+<legend>個人資訊</legend>
+姓名:<input type="text"><br>
+[單選]性別:<input type="radio" name="sex"value=male>男
+		  <input type="radio" name="sex" value=female>女<br>
+       生日:
+<select>
+	 <option>1</option>
+	 <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+     <option>6</option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+</select>
+月
+<select>
+	 <option>1</option>
+	 <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+     <option>6</option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+     <option>13</option>
+	 <option>14</option>
+     <option>15</option>
+     <option>16</option>
+     <option>17</option>
+     <option>18</option>
+     <option>19</option>
+     <option>20</option>
+     <option>21</option>
+     <option>22</option>
+     <option>23</option>
+     <option>24</option>
+     <option>25</option>
+	 <option>26</option>
+     <option>27</option>
+     <option>28</option>
+     <option>29</option>
+     <option>30</option>
+     <option>31</option>
+</select>
+日<br>
+你的email:<input type="email" id="email" name="email">
+</fieldset>
+<fieldset>
+<legend>品牌[可複選]</legend>
+<input type="checkbox"name="brand">skecher
+<input type="checkbox"name="brand">oris
+<input type="checkbox"name="brand">Sdn腳丫子工作室手工鞋
+</fieldset>
+
+<fieldset>
+    <legend>滿意度</legend>
+    <input type="radio" name="star">1星
+    <input type="radio" name="star">2星
+    <input type="radio" name="star">3星
+    <input type="radio" name="star">4星
+    <input type="radio" name="star">5星
+</fieldset>
+
+<fieldset>
+    <legend>客訴項目</legend>
+    <select>
+        <option>店員服務不佳</option>
+        <option>商品品質不佳</option>
+        <option>購物體驗不佳</option>
+        <option>其他</option>
+    </select>
+    <span style="font-size:10px;">其他</span><input type="text">
+
+</fieldset>
+
+<fieldset>
+<legend>意見欄</legend>
+<textarea cols="80" rows="10"></textarea><h2 class="text">感謝您寶貴的建議 ! 歡迎再度光臨 （＾∀＾）</h2>
+</fieldset>
+<input type="submit"value="輸入完畢">
+<input type="reset"value="重新來過">
+</form>
+</body>
+</html>
+
+
